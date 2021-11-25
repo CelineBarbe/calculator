@@ -10,7 +10,7 @@
     background-color:bisque;
     display : flex;
     width : 170px;
-    height: 230px;
+    height: 300px;
     flex-wrap: wrap;
 }
 #screen {
