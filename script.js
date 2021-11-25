@@ -34,6 +34,18 @@ function button9Clicked() {
     let screen = document.getElementById('screen');
     screen.textContent += "9";
 };
+function buttonPointClicked() {
+    let screen = document.getElementById('screen');
+    screen.textContent += ".";   
+};
+function buttonOpenParClicked() {
+    let screen = document.getElementById('screen');
+    screen.textContent += "(";   
+};
+function buttonCloseParClicked() {
+    let screen = document.getElementById('screen');
+    screen.textContent += ")";   
+};
 function buttonPlusClicked() {
     let screen = document.getElementById('screen');
     screen.textContent += "+";
@@ -41,7 +53,15 @@ function buttonPlusClicked() {
 function buttonMoinsClicked() {
     let screen = document.getElementById('screen');
     screen.textContent += "-";
-}
+};
+function buttonMultClicked() {
+    let screen = document.getElementById('screen');
+    screen.textContent += "*";
+};
+function buttonDivClicked() {
+    let screen = document.getElementById('screen');
+    screen.textContent += "/";
+};
 
 function solve() {
     let equation = document.getElementById('screen').textContent;
